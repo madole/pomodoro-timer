@@ -3,7 +3,7 @@ const path = require('path');
 
 const POMODORO_TIME = 1000 * 60 * 25;
 
-const iconPath = path.join(__dirname, 'icons/tomato.png');
+const iconPath = path.join(__dirname, 'images/tomato.png');
 
 let appIcon, timer, interval, browserWindow, contextMenu;
 
